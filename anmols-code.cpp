@@ -18,7 +18,7 @@ public:
         id = i;
         name = n;
         salary = s;
-    }
+    }       
 
     float calculate() {
         return salary - (salary * 25 / 100);
